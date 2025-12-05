@@ -1,0 +1,16 @@
+so like you know how the people in india get SMS from banks and all sorts of things? i want to mask them all
+
+for example: 
+SMS
+you have paid rs 100 to abc and your balance is rs 1000
+
+templete
+you have paid rs <AMOUNT> to <RECEIVER> and your balance is rs <BALANCE>
+
+i have to mask all of them this way for every sort of message
+
+casa, cc, wallet, utility, insurance, loan, and investment messages
+
+i previously used regex to make these templates but it very unreliable and not accurate as banks can chnage their message templates whenever they want.
+
+therefore i want to make a system which can automaically make templates from the SMS messages.
